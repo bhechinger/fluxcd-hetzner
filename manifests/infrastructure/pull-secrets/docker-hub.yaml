@@ -1,0 +1,51 @@
+apiVersion: v1
+data:
+    .dockerconfigjson: ENC[AES256_GCM,data:+ocC2JntqI1ruUwwj1LvXQMMldBdKKHJvrmEX5JKOlOzKagYjKTOOaRVI2/VHwv5n6kSWMeIi5qOTZEIoeOUTrs/WcJnFy/aTeMX1AbN5NUODFI+CzDBF/Syv3CWDPz8xyGHUZE3jOkU2XOHpDht7Xa6WJ66eq5MPD2n4rY1lyMbdn6z6lJVPTjrZamvJQvctpaHTbuT1WPNQBvl3yB8nEKOGis/eqLUNSZPMnV4IdJnTZAwLhjUGnBz7RFRjxai,iv:+/7nPuAUNMHUvag7bd0nN1Fh5/vGkPYMZrGjJxtC5xw=,tag:RgFfAsytcjnRJa3UkL9Zwg==,type:str]
+kind: Secret
+metadata:
+    creationTimestamp: null
+    name: docker-hub-pull-secret
+    namespace: default
+type: kubernetes.io/dockerconfigjson
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2023-12-08T14:44:10Z"
+    mac: ENC[AES256_GCM,data:YJ6mEhx30S4w4ZUAYly8C0lUkcSkmC+LhyAlAznyyMdpVlKSDoifzJpdv9INaLS3xjSxIkuExvJIiCVN3HXJ0KgzIk/cuxnT9VJMc6jQcVlH7EriJJ3WQ8aw5/5Jm6Rb5lFNrV5XBSHnkIOD5eQjWxxVkaKwYUHfYixo34ZygI4=,iv:yLgJ32rKrQEZLcOnkDTd5vogoSWniAnr4ZaiGPE9ijk=,tag:JVzsOkQfKHwZgk66euQwSg==,type:str]
+    pgp:
+        - created_at: "2023-12-08T14:44:10Z"
+          enc: |-
+            -----BEGIN PGP MESSAGE-----
+
+            hF4DnzbfQ6vybbYSAQdAqPmbxM4Sl/G1VZ3d45hNJyxunsmnEZxcuuVOCDe6dFcw
+            3XHQMlB3yMoMOvedO9B1AFFfYLySjC8courkteeIQg+/CXpQYUURoJucXxvfg80X
+            0l4BtD+0vEA/rNb8uV8Qus6vBNLav1ACBtdH6Uqfr03VcJkZLlAqQ0R9KN9uybR6
+            hzvRZomO+QUFNcm+tsW//ckduoWSEFMMU+xwZGlBB1AhQ01RBTkHqVrnAlbY/K37
+            =opfq
+            -----END PGP MESSAGE-----
+          fp: 3892805B084F6E0BAE4DD3FD57DD9AE4F5BEEFE8
+        - created_at: "2023-12-08T14:44:10Z"
+          enc: |-
+            -----BEGIN PGP MESSAGE-----
+
+            hQIMAxGYVSY3QaaHARAAtt0ulbSzwqWEsgNwwH6ApDl031i8PpIlVM4rG+C2u2j9
+            ptwmlDRqbZAudM6j1PyGv1y4O0/Z2lxKGhKeB1kX3G2qpraVh3g5ntdYuuTAHwl5
+            1FRW1a1bYGGwa1bZkuc8H5IWb/fWHWj5sAgrss+YBc/almFW1wc0w1aGhxux4W+J
+            D5W/Ew3sFW6BKXbHfwQj+kr99XlN7UTclrbexYraiCM8/Khh0VQ9r4Jz9RwqWvOh
+            LTrEpICK68DWgMoJNb4P8aU7CvVNaIThmViwZ8re+IDn8exnpxhPuBe6Zlr2q7TU
+            P0cwMiB+IFosxp6xVHCgr8ylaXgH7hgQr6VoOEWT+nMYQNRBfVTThiBnGHaS+btn
+            pl/7lrPHNyWGg0elgiilc688Pa96i32rfcwwYSg8yuoVWcoqWbzTj0E3TYk7CEQm
+            zsAe6ILqB3iWNhAYSCJD8VyHYurx2d4jOCh/YQQe0kkIafyToXTzAHJj1jyFvZ4P
+            xcjB/JRxwjCssQnQ6BWS4RsIojZLXMIhwuS8SzSHzW/XYLqlckMyaBb/S4NLsAlp
+            GDLOrX49r3YH3pr+qrmacY4PjR1NPkgjCBSTkeb7qnoT13BAsHaR0GUtNRuUTGlQ
+            NkU/ENNe5s52p9zPo8grttwaLV+v/7/+zX/65QMyxuZ1BMrErqi4ni829K1uEHLS
+            XgETB4VopjDlVnid1PsivMKAMG/YO/FrhhPgBi+gqpgy6X5E+S+Wvp+AvdncAksh
+            v1HhK0CtzKgk2mTpsBKdwRFfsDeYkYHXjgPuwubfNKuQEvhPMxfjOtFvykbs9M8=
+            =Nter
+            -----END PGP MESSAGE-----
+          fp: 1095C1E7CE8B8EBCCA52E07F8167F649B348E6CE
+    encrypted_regex: ^(data|stringData)$
+    version: 3.8.1
