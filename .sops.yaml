@@ -3,25 +3,16 @@
 creation_rules:
   - path_regex: manifests/.*\.yaml
     encrypted_regex: ^(data|stringData)$
-    pgp: >-
-      3892805B084F6E0BAE4DD3FD57DD9AE4F5BEEFE8,
-      1095C1E7CE8B8EBCCA52E07F8167F649B348E6CE
+    pgp: 3892805B084F6E0BAE4DD3FD57DD9AE4F5BEEFE8
 
   - path_regex: talosconfig
     encrypted_regex: ^key$
-    pgp: >-
-      3892805B084F6E0BAE4DD3FD57DD9AE4F5BEEFE8,
-      1095C1E7CE8B8EBCCA52E07F8167F649B348E6CE
+    pgp: 3892805B084F6E0BAE4DD3FD57DD9AE4F5BEEFE8
 
   - path_regex: kubeconfig
     encrypted_regex: ^client-key-data$
-    pgp: >-
-      3892805B084F6E0BAE4DD3FD57DD9AE4F5BEEFE8,
-      1095C1E7CE8B8EBCCA52E07F8167F649B348E6CE
+    pgp: 3892805B084F6E0BAE4DD3FD57DD9AE4F5BEEFE8
 
   - path_regex: secrets.yaml
     encrypted_regex: ^(secret|bootstraptoken|secretboxencryptionsecret|token|key)$
-    pgp: >-
-      3892805B084F6E0BAE4DD3FD57DD9AE4F5BEEFE8,
-      1095C1E7CE8B8EBCCA52E07F8167F649B348E6CE
-
+    pgp: 3892805B084F6E0BAE4DD3FD57DD9AE4F5BEEFE8
